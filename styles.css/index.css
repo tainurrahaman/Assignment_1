@@ -167,3 +167,39 @@
     height: auto;
     padding-right: 50px;
 }
+
+/* Inspiration */
+
+.inspiration {
+    margin: 50px 130px;
+    border-radius: 15px;
+    padding: 0px 90px;
+}
+
+.ins-title {
+    padding: 0px 45px 30px 45px;
+    text-align: center;
+}
+
+.ins-title h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.ins-title p {
+    font-size: 18px;
+    color: #0D1321;
+    text-align: center;
+}
+
+.ins-video {
+    text-align: center;
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.ref {
+    border-radius: 16px;
+}
