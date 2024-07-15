@@ -105,7 +105,10 @@
 
 .first-one h5,
 .second-two h5,
-.third-one h5 {
+.third-one h5,
+.html-lng h5,
+.css-lng h5,
+.js-lng h5 {
     font-size: 24px;
     font-weight: bold;
     color: #0D1321;
@@ -113,7 +116,10 @@
 
 .first-one p,
 .second-two p,
-.third-one p {
+.third-one p,
+.html-lng p,
+.css-lng p,
+.js-lng p {
     font-size: 16px;
     color: #0D1321;
 }
@@ -170,24 +176,28 @@
 
 /* Inspiration */
 
-.inspiration {
+.inspiration,
+.target {
     margin: 50px 130px;
     border-radius: 15px;
     padding: 0px 90px;
 }
 
-.ins-title {
-    padding: 0px 45px 30px 45px;
+.ins-title,
+.tar-des {
+    padding: 10px 45px 35px 45px;
     text-align: center;
 }
 
-.ins-title h4 {
+.ins-title h4,
+.tar-des h4 {
     font-size: 32px;
     font-weight: bold;
     color: #0D1321;
 }
 
-.ins-title p {
+.ins-title p,
+.tar-des p {
     font-size: 18px;
     color: #0D1321;
     text-align: center;
@@ -202,4 +212,45 @@
 
 .ref {
     border-radius: 16px;
+}
+
+/* Target styles */
+
+.tar-lng {
+    display: flex;
+    justify-content: space-around;
+}
+
+.html-lng {
+    padding: 40px;
+    background-color: #f9e7e2;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.css-lng {
+    padding: 40px;
+    background-color: #cfdefa;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.js-lng {
+    padding: 40px;
+    background-color: #faf4ce;
+    text-align: justify;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tar-btn {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+    border: none;
+    background-color: azure;
+    border-radius: 5px;
+    cursor: pointer;
 }
