@@ -291,3 +291,45 @@
     color: #0D1321;
     text-align: justify;
 }
+
+.contact {
+    background-image: url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    margin: 0px 220px 20px 220px;
+    padding: 28px 100px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.contact h4 {
+    font-size: 32px;
+    color: #0b0b0b;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.com-btn {
+    font-size: 20px;
+    font-weight: 500px;
+    color: #0D1321;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.sug-btn {
+    font-size: 20px;
+    font-weight: 500px;
+    color: #0D1321;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 10px;
+}
