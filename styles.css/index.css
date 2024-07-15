@@ -333,3 +333,25 @@
     border: none;
     padding: 10px 10px;
 }
+
+/* Footer styles */
+
+.connect {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 0px 220px;
+}
+
+.connect h6 {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #0D1321;
+}
+
+.social-links {
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px;
+}
