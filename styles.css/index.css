@@ -60,3 +60,110 @@
     border-radius: 7px;
     cursor: pointer;
 }
+
+/* Challenges Complex's work */
+
+.complex {
+    margin: 50px 130px;
+    background-color: #fbfbfb;
+    border-radius: 15px;
+    padding: 50px 90px;
+}
+
+.cmp-title {
+    padding: 0px 45px 30px 45px;
+    text-align: center;
+}
+
+.cmp-title h4 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.cmp-title p {
+    font-size: 18px;
+    color: #0D1321;
+    text-align: center;
+}
+
+/* first image with des  */
+
+.first {
+    display: flex;
+    padding: 30px 45px 30px 45px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.first-one {
+    width: 60%;
+    height: auto;
+    padding-right: 50px;
+}
+
+.first-one h5,
+.second-two h5,
+.third-one h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.first-one p,
+.second-two p,
+.third-one p {
+    font-size: 16px;
+    color: #0D1321;
+}
+
+.first-btn {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #0D1321;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first-two,
+.third-two {
+    text-align: right;
+    padding-left: 50px;
+}
+
+.second {
+    margin-top: 30px;
+    display: flex;
+    padding: 30px 45px 30px 45px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.second-one {
+    text-align: left;
+    padding-right: 50px;
+}
+
+.second-two {
+    width: 60%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.third {
+    margin-top: 30px;
+    display: flex;
+    padding: 30px 45px 30px 45px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.third-one {
+    width: 60%;
+    height: auto;
+    padding-right: 50px;
+}
