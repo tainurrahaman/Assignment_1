@@ -25,8 +25,38 @@
     font-weight: 350px;
     color: white;
     border-radius: 5px;
-    background-color: rgba(255, 0, 0, 0.906);
+    background-color: #0D1321;
     border: none;
     padding: 10px 10px;
+    cursor: pointer;
+}
+
+/* Banner styles */
+
+.banner {
+    background-image: url('../assets/Hero-bg.png');
+    justify-content: center;
+    text-align: center;
+    padding: 26px 250px 45px 250px;
+
+}
+
+.banner-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+.banner-des {
+    font-size: 18px;
+    color: #0D1321;
+}
+
+.banner-btn {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #0D1321;
+    padding: 18px;
+    border-radius: 7px;
     cursor: pointer;
 }
